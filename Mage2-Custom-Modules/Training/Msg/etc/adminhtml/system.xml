@@ -1,0 +1,12 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+<system>
+    <section id="customer">
+        <group id="create_account">
+            <field id="cookie_lifetime" type="text" translate="Cookie Lifetime" sortOrder="120" showInDefault="1" showInWebsite="1" showInStore="0">
+                <label>Cookie Lifetime</label>
+                <comment>Default value is 604800.</comment>
+            </field>
+        </group>
+    </section>
+</system>
+</config>
